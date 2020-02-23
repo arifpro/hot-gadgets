@@ -1,0 +1,104 @@
+.container{
+    padding-bottom: 50px;
+}
+.navbar{
+    padding-top: 15px;
+}
+/* .header-bg{
+    background-image: url("images/background-image/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
+/* .slide{
+    background-color: orange;
+} */
+/* 
+.carousel-indicators{
+    background-color: red;
+    margin-top: -100%;
+} 
+*/
+
+.custom-btn{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.custom-btn:hover{
+    background-color: #102c55;
+}
+.header-p{
+    padding-right: 20px;
+}
+.sec-div1{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.cat-div1{
+    /* margin-bottom: 20px; */
+    margin-top: 35px;
+}
+.cat-hr{
+    background-image: linear-gradient(45deg, rgb(243, 195, 140), orange );
+    border-radius: 10px;
+    height: 5px;
+    width: 100px;
+    margin-top: -2px;
+    margin-bottom: 50px;
+}
+.see-all{
+    /* text-decoration: none; */
+    color: #ff9c35;
+    font-weight: 500;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    padding-top: 30px;
+    /* box-shadow: 10px 10px 10px lightgray; */
+    box-shadow:2px 2px 30px 30px lightgray;
+    -webkit-box-shadow:2px 2px 30px 5px lightgray;
+    -moz-box-shadow:2px 2px 50px 50px lightgray;
+}
+.card img{
+    width: 70%;
+}
+.card-body{
+    text-align: center;
+}
+/* .card-footer{
+    background-color: white;
+    border-top: none;
+} */
+.card-body h6{
+    padding-top: 15px;
+    font-size: 25px;
+}
+.cat-img{
+    width: 100%;
+}
+.cus-bottom1{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 3px;
+}
+.cus-bottom2{
+    margin-bottom: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 22px;
+}
+/* .cat-card1, .cat-card1, .cat-card1{
+    border: none;
+    color: red;
+} */
+/* .footer{
+    color: lightgray;
+    font-size: 50px;
+    font-weight: 900;
+} */
