@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="images/icons/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" alt="Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
@@ -92,15 +92,16 @@
                         </div>
                     </div>
                 </div>
-            </div><br><br><br>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            </div>
+            <br><br><br>
+            <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
         </div>
     </section>
 
@@ -227,7 +228,7 @@
 
 
 
-    <section class="container d-flex justify-content-center align-items-center orange-bg" id="contact-us">
+    <!-- <section class="container d-flex justify-content-center align-items-center orange-bg" id="contact-us">
         <div>
             <h3>LET'S STAY IN TOUCH</h3>
             <h6>Get updates on sales, specials add more</h6>
@@ -237,14 +238,84 @@
                 <button class="custom-btn">SUBMIT</button>
             </div>
         </div>
+    </section> -->
+
+
+
+
+    <section class="newsletter p-3">
+        <div class="container  shadow bg-secondary text-white  p-4 p-md-5 rounded ">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <h2>NEWS LETTER</h2>
+                    <p>Join us now to get all news and special offers
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <form class="form" action="">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="Enter Your Email Here" type="text">
+                            <div class="input-group-append">
+                                <button class="btn btn-dark">&nbsp;Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
-
-
-
-
-    <div class="container d-flex justify-content-center font-weight-bold">
-        <footer>© 2020 Hot Gadget. All Right Reserved.</footer>
-    </div>
+    
+    
+    <footer class="container bg-light mt-5" id="contact-us">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4 order-4 order-md-0">
+                    <img class="d-none d-md-block" src="images/logo.png" alt="">
+                    <p class="mt-3 text-center text-md-left">Hot-Gadget © <script>document.write(new Date().getFullYear())</script> . All right Reserved</p>
+                </div>
+                <div class="col-6 col-md-2">
+                    <ul class="list-unstyled">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Our Feed</a></li>
+                        <li><a href="#">Term And Condition</a></li>
+                        <li><a href="#">Our Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center text-md-left">
+                    <h5>Stay Connected</h5>
+                    <ul class="list-unstyled contact-info">
+                        <li><img src="images/icons/email.png" alt=""><a href="mailto:info@arifweb.xyz">
+                                info@arifweb.xyz</a></li>
+                        <li><img src="images/icons/call.png" alt=""><a href="tel:88017-XXX-XXX">+86132-XXXX-XXXX</a></li>
+                    </ul>
+                    <ul class="list-inline social-media">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://facebook.com/#"><img src="images/icons/facebook.png"
+                                    alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/#"><img src="images/icons/twitter.png"
+                                    alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://instagram.com/#"><img src="images/icons/instagram.png"
+                                    alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://pinterest.com/#"><img src="images/icons/pinterest.png"
+                                    alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
