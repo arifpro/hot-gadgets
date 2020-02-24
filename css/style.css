@@ -28,12 +28,12 @@
     border-radius: 10px;
     padding-left: 10px;
 }
-/* 
-.carousel-indicators{
-    background-color: red;
-    margin-top: -100%;
-} 
-*/
+.orange-bg{
+    background-color: #4f9ab1;
+    border-radius: 10px;
+    padding-top: 25px;
+    margin-bottom: 45px;
+}
 
 .custom-btn{
     background-color: black;
